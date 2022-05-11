@@ -24,11 +24,7 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: IndexedStack(
           index: _controller.currentTab,
-          children: [
-            tabs[0],
-            tabs[1],
-            tabs[2],
-          ],
+          children: tabs,
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(

@@ -23,7 +23,7 @@ class _Page2State extends State<Page2> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ElevatedButton(
-                child: const Text('s'),
+                child: const Text('subpage'),
                 onPressed: () {
                   Navigator.pushNamed(
                       NavigatorKeys.navigatorKeyBusiness.currentContext ??
